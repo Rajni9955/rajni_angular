@@ -1,7 +1,42 @@
+<!-- <br><br>
+<h2 class="user-name">WelCome {{studentName}}</h2>
 <div class="container">
-  <form id="container">
-    <h2>Login Form</h2>
-    Name : <input type="text"> <br> <br>
-    Password : <input type="password"> <br>
+  <form>
+    <h2>{{formTitle}}</h2>
+    Name 
+    <br><br>
+    <input type="text"> <br> <br>
+    Password <br>
+    <br>
+     <input type="password"> <br> <br>
+    <button class="sbmit-btn">Submit</button>
   </form>
 </div>
+<p>you have received amount---{{amount}}</p>
+<p>{{isFavCity}}</p>
+<p>{{50+10}}</p>
+<p>{{testingInterpolation(29,36)}}</p>
+<p>{{isFavCity == false}}</p>
+<p>{{isFavCity === false}}</p>
+
+
+<br><br> -->
+<!-- 2. nproperty binding -->
+<input type="text" [value]="myName"><br><br>
+<input type="radio" [checked]="gender"><br><br>
+<input type="text" value = "{{myName}}">
+<br><br><br>
+
+<!-- 3. EventBinding (), (click), (focus) -->
+<br>
+<button (clcik)="testingEventBinding()">Click</button>
+{{eventBindingData}}
+<br><br><br>
+
+<!-- Two way Data Binding -->
+<input type="text" [(NgModule)] = "twoWayBindingTest">
+
+{{twoWayBindingTest}}
+<br><br>
+
+<button (click)="test()">print</button>

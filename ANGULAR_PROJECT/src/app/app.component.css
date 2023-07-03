@@ -1,3 +1,17 @@
 .container{
-    border: 10px rgb(203, 19, 19);
+    border: 100px;
+    background-color: rgb(228, 221, 100);
+    width: 200px;
+   text-align: center;
+   margin: auto;
+}
+.sbmit-btn{
+    background-color: rgb(184, 108, 177);
+    padding: 10px 8px;
+    border: none;
+}
+.user-name{
+    color: rgb(66, 66, 194);
+    font-size: 30px;
+    text-align: center;
 }
