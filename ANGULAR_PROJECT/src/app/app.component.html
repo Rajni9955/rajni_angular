@@ -22,21 +22,34 @@
 
 <br><br> -->
 <!-- 2. nproperty binding -->
-<input type="text" [value]="myName"><br><br>
+<!-- <input type="text" [value]="myName"><br><br>
 <input type="radio" [checked]="gender"><br><br>
 <input type="text" value = "{{myName}}">
-<br><br><br>
+<br><br><br> -->
 
 <!-- 3. EventBinding (), (click), (focus) -->
-<br>
+<!-- <br>
 <button (clcik)="testingEventBinding()">Click</button>
 {{eventBindingData}}
 <br><br><br>
 
-<!-- Two way Data Binding -->
-<input type="text" [(NgModule)] = "twoWayBindingTest">
+<!-Two way Data Binding -->
+<!-- <input type="text" [(ngModel)] = "twoWayBindingTest">
 
 {{twoWayBindingTest}}
 <br><br>
 
-<button (click)="test()">print</button>
+<button (click)="test()">print</button> --> -->
+
+
+
+<br>
+
+
+<!-- <app-signup>appsignup</app-signup> -->
+
+<a routerLink="/login">click component</a>
+<br><br>
+<button routerLink="signup">signup</button>
+<router-outlet></router-outlet>
+<br><br>
