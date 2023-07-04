@@ -5,14 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './admin/home/home.component';
 
-console.log('app.module.ts');
+// console.log('app.module.ts');
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignupComponent
+    LoginComponent,
+    SignupComponent,
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
