@@ -1,0 +1,19 @@
+.container{
+    border: 1px solid rgb(143, 76, 206);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(120, 222, 222);
+}
+.submt-btn{
+    background-color: rgb(245, 141, 143);
+    padding: 13px 15px;
+    border: none;
+    color: white;
+}
+.user-name{
+    color: rgb(223, 66, 18);
+    font-size: 30px;
+    text-align: center;
+}
