@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LandingComponent } from './landing/landing.component';
+import { LoginComponent } from './landing/login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { DirectivesInAngularComponent } from './directives-in-angular/directives-in-angular.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingComponent,
+    LoginComponent,
+    SignupComponent,
+    DirectivesInAngularComponent
   ],
   imports: [
     BrowserModule,

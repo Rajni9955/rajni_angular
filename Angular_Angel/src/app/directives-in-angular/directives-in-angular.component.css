@@ -1,0 +1,35 @@
+.div-container{
+    border: solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.item-container{
+    color: rgb(32, 32, 145);
+    font-size: medium;
+    font-family: 'Courier New';
+}
+.table-container{
+    height: 300px;
+    width: 250;
+    padding: 5px;
+    background-color: burlywood;
+}
+table,tr,td,th{
+    border: 1px solid orangered;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+.container1{
+    color: rgb(0, 12, 139);
+    font-size: 30px;
+}
+.container2{
+    color: rgb(139, 0, 44);
+    font-size: 30px;
+}
+.container3{
+    color: chartreuse;
+    font-size: 30px;
+
+}
