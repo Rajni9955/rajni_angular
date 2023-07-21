@@ -1,0 +1,45 @@
+.container{
+    background-color: chocolate;
+    height: 1000px;
+    width: 1000px;
+}
+.heading{
+    text-align: center;
+}
+
+.form-container{
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.label{
+    font-size: 20px;
+    padding: 5px ;
+    position: relative;
+    top: 8px;
+}
+
+.inp-box{
+   padding: 5px; 
+   margin-top: 10px;
+}
+.pass{
+    font-size: 20px;
+    padding: 5px ;
+}
+.sbt-btn{
+    font-size: 20px;
+    padding: 5px ;
+    position: relative;
+    top: 8px;
+    background-color: cornflowerblue;
+}
+.sapn-err{
+    color: red;
+    font-size: 15px;
+}

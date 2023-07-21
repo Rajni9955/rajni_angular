@@ -1,0 +1,21 @@
+<div class="container">
+    <button>Back</button>
+
+    <h2 class="heading">Login Form</h2>
+
+    <form #loginForm = 'ngForm' class="form-container">
+
+        <label class="label">Full Name</label> &nbsp; <br><br>
+
+        <input type="text" class="inp-box" name="fullName" ngModel #fullName="ngModel" pattern="[a-zA-Z]*$"> <br>
+        
+        <span class="sapn-err" *ngIf="fullName.errors?.['pattern']">full name have only alphabets</span> <br><br>
+
+        <label class="pass">Passward</label> &nbsp;<br><br>
+
+        <input type="text" class="inp-box"> <br><br>
+
+        <button class="sbt-btn">submit</button>
+
+    </form>
+</div>
