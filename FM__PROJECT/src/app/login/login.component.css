@@ -19,7 +19,7 @@
 
 .label{
     font-size: 20px;
-    padding: 5px ;
+    padding: 3px ;
     position: relative;
     top: 8px;
 }
@@ -42,4 +42,9 @@
 .sapn-err{
     color: red;
     font-size: 15px;
+}
+.inp-pass{
+    padding: 5px; 
+   margin-top: 10px;
+
 }
