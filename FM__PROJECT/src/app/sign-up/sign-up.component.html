@@ -1,1 +1,50 @@
-<p>sign-up works!</p>
+<div>
+    <h2 class="form-heading">SignUp Form </h2>
+    <form class="signup-form-container" [formGroup]="signUpForm">
+
+        <label>Name</label> &nbsp;
+        <input type="text" formControlName="fullName"><br>
+        <span *ngIf="!signUpForm.get('fullName')?.touched && !signUpForm.get('fullName')?.valid">Hint: Enter your full name here
+        </span><br>
+
+        <span  class="err" *ngIf="signUpForm.get('fullName')?.errors?.['required'] && !signUpForm.get('fullName')?.valid &&  signUpForm.get('fullName')?.touched && signUpForm.get('fullName')?.dirty" >
+            fullName is required
+        </span ><br>
+        <span *ngIf="signUpForm.get('fullName')?.errors?.['pattern']">
+            Enter Alphabets only
+        </span><br>
+
+        <label>Mobile No.</label> &nbsp;
+        <input type="text" formControlName="MobileNo"><br>
+        <span *ngIf="!signUpForm.get('MobileNo')?.touched">Hint: Enter your Mobile Number</span><br>
+
+        <span class="err" *ngIf="signUpForm.get('MobileNo')?.errors?.['pattern'] && signUpForm.get('MobileNo')?.touched ">Mobile no. should be Integer</span><br>
+
+        <span class="err" *ngIf="signUpForm.get('MobileNo')?.errors?.['minlength'] &&!signUpForm.get('MobileNo')?.errors?.['pattern'] ">please Enter 10 digits mobile no.
+        </span><br>
+
+        <span class="err" *ngIf="signUpForm.get('MobileNo')?.errors?.['maxlength'] 
+                             && !signUpForm.get('MobileNo')?.errors?.['pattern']">
+            Please Enter Maximum 10 Digit Mobile Number
+        </span><br><br>
+
+        <label>Gender</label><br><br>
+        <input type="radio" value="Female" formControlName="gender"> Female <br>
+        <input type="radio" value="Male"  formControlName="gender"> Male <br><br>
+       
+        <label>City</label><br>
+        <input type="text" formControlName="city"><br><br>
+
+        <label>Email Id</label><br>
+        <input type="text" formControlName="email"><br>
+
+        <label>User Name</label><br>
+        <input type="text" formControlName="userName"><br>
+
+        <label>Address</label><br>
+        <input type="text" formControlName="address"><br><br>
+
+        <button [disabled]="!signUpForm.valid" (click)="submit()">submit</button>
+
+    </form>
+</div>
