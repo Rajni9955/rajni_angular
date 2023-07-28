@@ -18,13 +18,14 @@
         <input type="text" formControlName="MobileNo"><br>
         <span *ngIf="!signUpForm.get('MobileNo')?.touched">Hint: Enter your Mobile Number</span><br>
 
-        <span class="err" *ngIf="signUpForm.get('MobileNo')?.errors?.['pattern'] && signUpForm.get('MobileNo')?.touched ">Mobile no. should be Integer</span><br>
+        <span class="err" *ngIf="signUpForm.get('MobileNo')?.errors?.['pattern']
+        && signUpForm.get('MobileNo')?.touched " >Mobile no. should be Integer</span><br>
 
         <span class="err" *ngIf="signUpForm.get('MobileNo')?.errors?.['minlength'] &&!signUpForm.get('MobileNo')?.errors?.['pattern'] ">please Enter 10 digits mobile no.
         </span><br>
 
-        <span class="err" *ngIf="signUpForm.get('MobileNo')?.errors?.['maxlength'] 
-                             && !signUpForm.get('MobileNo')?.errors?.['pattern']">
+        <span class="err" *ngIf="signUpForm.get('mobNo')?.errors?.['minlength']
+        && !signUpForm.get('mobNo')?.errors?.['pattern']">
             Please Enter Maximum 10 Digit Mobile Number
         </span><br><br>
 

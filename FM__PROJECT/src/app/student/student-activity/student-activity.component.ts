@@ -14,6 +14,8 @@ inpPassword : any;
 inpconfirmpassword : any;
 isMatch! : boolean;
 showPassword! : boolean;
+  strongPassword!: boolean;
+  passlength! : any;
 
 constructor(private fb : FormBuilder){}
 
@@ -36,6 +38,12 @@ passwordBoxValue(){
   }
   else{
     this.isMatch = false;
+  }
+  let passlength = this.passwordBoxValue.length
+  if(this.passlength > 10){
+    this.strongPassword = true;
+
+    
   }
 }
 

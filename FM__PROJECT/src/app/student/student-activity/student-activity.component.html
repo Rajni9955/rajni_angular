@@ -10,9 +10,12 @@
         password and confirmpassword should be same
     </span> <br>
 
+
     Confirm Password : <input type="text" formControlName="confirmpassword" (keyup)="confirmpasswordBox()"> <br>
 
-    <span  class="err" *ngIf="!isMatch && signInForm.get('password')?.dirty">
+    <span *ngIf="strongPassword">strong password</span>
+
+    <span  class="err" *ngIf="!isMatch && signInForm.get('password')?.dirty && !strongPassword">
         password and confirmpassword should be same
     </span><br>
 

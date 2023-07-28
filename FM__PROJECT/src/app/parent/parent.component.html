@@ -1,0 +1,15 @@
+<p>parent works!</p>
+<button (click)="set()"> Set Data</button><br><br>
+
+<input type="text" [(ngModel)]="parentData"><br><br>
+name : <input type="text" value="name">
+
+<br>-----------------------------------------<br>
+ {{parentData}}
+<app-child [dataFromParent]="parentData"> </app-child>
+
+
+<br>-----------------------------------------<br>
+<app-student-demo></app-student-demo>
+
+

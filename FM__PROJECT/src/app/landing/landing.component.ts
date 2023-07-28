@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-landing',
@@ -7,9 +8,17 @@ import { Router } from '@angular/router';
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent {
-constructor (private router : Router){
+
+  uName! : string;
+
+constructor (private router : Router, private dataService : DataService){
 
 }
+
+ngOnInIt(){
+  this.uName = this.dataService.userName;
+}
+
   login(){
     this.router.navigateByUrl('/login');
   }
@@ -20,4 +29,18 @@ constructor (private router : Router){
   directives(){
     this.router.navigateByUrl('directives');
   }
+
+  lifiCycleHooks(){
+    this.router.navigateByUrl('lifeCycleHooks');
+  }
+
+  Parent(){
+    this.router.navigateByUrl('parent');
+}
+
+// Child(){
+//   this.router.navigateByUrl('child');
+// }
+
+
 }

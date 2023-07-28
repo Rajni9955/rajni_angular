@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { DataService } from '../data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sign-up',
@@ -11,10 +13,12 @@ export class SignUpComponent {
   student = {
     name : 'Angel',
     age : 25 ,
+    mob:64646464646,
+    city:'mumbai'
   }
 
- constructor(private fb : FormBuilder){
-
+ constructor(private fb : FormBuilder, private dataService : DataService , private router : Router){
+  
  }
 
 
@@ -32,14 +36,15 @@ formDef(){
     userName:[''],
     city:[''],
     address:[''],
-    gender:[''],
+    gender:['female'],
   })
 }
 
 
 submit(){
   console.log(this.signUpForm.valid);
-  
+  this.dataService.userName = this.signUpForm.value.fullName;
+  this.router.navigateByUrl('landing');
 }
 }
 
