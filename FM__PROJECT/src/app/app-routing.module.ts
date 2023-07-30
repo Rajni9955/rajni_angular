@@ -7,6 +7,7 @@ import { DirectivesAngularComponent } from './directives-angular/directives-angu
 import { LificyclehooksComponent } from './lificyclehooks/lificyclehooks.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
   {path : '', component : LandingComponent},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path : 'lifeCycleHooks', component : LificyclehooksComponent},
   {path : 'parent', component : ParentComponent},
   {path : 'child', component : ChildComponent},
+  {path : 'form', component : FormComponent},
   {path : 'student', loadChildren:()=> import('./student/student.module').then(m=>m.StudentModule)},
 
 ];

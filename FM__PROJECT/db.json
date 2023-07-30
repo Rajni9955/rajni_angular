@@ -1,20 +1,45 @@
 {
-  "posts": [
+  "admin": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode",
-      "name": "angel"
+      "title": "RAM-SITA",
+      "id": 1
+    },
+    {
+      "name": "angel",
+      "mob no": "43568953125456",
+      "id": 2
     }
   ],
-  "comments": [
+  "owner": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "RAM-SITA",
+      "id": 1
     }
   ],
-  "profile": {
+  "student": {
     "name": "typicode"
-  }
+  },
+  "studentName": [],
+  "form": [
+    {
+      "Name": "rani",
+      "MobileNumber": "9814736476",
+      "id": 1
+    },
+    {
+      "Name": "tanu",
+      "MobileNumber": "9857463128",
+      "id": 2
+    },
+    {
+      "Name": "angel",
+      "MobileNumber": "9525747133",
+      "id": 3
+    },
+    {
+      "Name": "angel",
+      "MobileNumber": "9525747133",
+      "id": 4
+    }
+  ]
 }
