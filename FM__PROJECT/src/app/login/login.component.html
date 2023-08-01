@@ -7,7 +7,7 @@
 
         <label class="label">Full Name</label> &nbsp; <br>
 
-        <input type="text" class="inp-box" name="fullName" ngModel #fullName="ngModel" pattern="[a-zA-Z ]*$" required minlength="5" maxlength="20"> <br>
+        <input type="text" class="inp-box" name="fullName" ngModel #fullName="ngModel" pattern="[a-zA-Z ]*$" required minlength="5"   maxlength="20"> <br>
         
         <span class="sapn-err" *ngIf="fullName.errors?.['pattern'] && fullName.touched"> Enter name only alphabets</span> <br>
 
@@ -21,6 +21,10 @@
         </span> <br>
         <span class="sapn-err" *ngIf="passward.errors?.['pattern'] && !passward.errors?.['minlength']"  >please match the pattern</span><br>
 
+        <label> Confirm Password</label><br>
+        <input  class="inp-pass" type="text" ngModel #confirmPass = 'ngModel'
+        name="confirmPassword"><br>
+        
         <label>Gender</label><br>
         <input type="radio" required value="male" name="gender" ngModel #gender='ngModel'>Male<br>
         <input type="radio" required value="female" name="gender" ngModel #gender='ngModel'>Female<br>

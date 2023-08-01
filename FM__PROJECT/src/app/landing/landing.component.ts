@@ -12,6 +12,7 @@ export class LandingComponent {
 
   uName! : string;
   getApiCallResponse: any;
+  getByIdData : any;
   
 constructor (private router : Router, private dataService : DataService,
   public commonapicallService : CommonapicallService){
@@ -62,5 +63,31 @@ getApiCall(){
 form(){
   this.router.navigateByUrl('form');
 }
+getById(){
+  this.commonapicallService.getById(4, "admin").subscribe(res=>{
+    this.getByIdData = res;
+    console.log(res);
+    
+  })
+}
+
+delete(){
+  this.commonapicallService.deleteApicall("admin",2).subscribe(resp=>{
+   console.log('delete response', resp);
+   
+  })
+}
+
+updateDetails(){
+  this.commonapicallService.getApiCall("admin", ).subscribe(respo=>{
+    this.commonapicallService.getByIdData = respo;
+  })
+
+  this.router.navigateByUrl('signUp');
+  // this.router.navigateByUrl('login');
+}
+
+
+
 
 }

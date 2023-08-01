@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { DataService } from '../data.service';
 import { Router } from '@angular/router';
+import { CommonapicallService } from '../student/commonapicall.service';
 
 @Component({
   selector: 'app-sign-up',
@@ -10,6 +11,7 @@ import { Router } from '@angular/router';
 })
 export class SignUpComponent {
   signUpForm! : FormGroup
+  postApiData : any;
   student = {
     name : 'Angel',
     age : 25 ,
@@ -17,7 +19,7 @@ export class SignUpComponent {
     city:'mumbai'
   }
 
- constructor(private fb : FormBuilder, private dataService : DataService , private router : Router){
+ constructor(private fb : FormBuilder, private dataService : DataService , private router : Router,  public commonapicallService : CommonapicallService){
   
  }
 
@@ -44,6 +46,10 @@ formDef(){
 submit(){
   console.log(this.signUpForm.valid);
   this.dataService.userName = this.signUpForm.value.fullName;
+  let endPoint = "admin";
+  this.commonapicallService.postApiCall(endPoint, this.signUpForm.valid).subscribe(response=>{
+    this.postApiData = response;
+  })
   this.router.navigateByUrl('landing');
 }
 }

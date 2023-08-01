@@ -8,6 +8,30 @@
     <input type="text" formControlName="mobileNo"><br><br>
 
     <button (click)="save()">save</button><br><br>
-
-
 </form>
+
+<div *ngIf="adminData" class="table-container">
+    <table>
+       <tr>
+        <th *ngFor="let heading of tableHeading">{{heading}}</th>
+    </tr>
+    <tr *ngFor="let tabledata of adminData">
+        <td>{{tabledata.fullName}}</td>
+        <td>{{tabledata.moblieNumber}}</td>
+        <td>{{tabledata.email}}</td>
+        <td>{{tabledata.city}}</td>
+    </tr>
+    </table>
+</div>
+
+<div>
+    {{myName | uppercase}} <br>
+    {{myName | lowercase}}
+</div>
+<br>
+<div>
+    {{date}} <br>
+    {{date | date}} <br>
+    {{date | date: 'shortDate'}} <br>
+    {{date | date: 'fullDate'}} (IST) <br>
+</div>

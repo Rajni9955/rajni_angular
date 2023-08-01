@@ -10,8 +10,10 @@ import { DirectivesAngularComponent } from './directives-angular/directives-angu
 import { LificyclehooksComponent } from './lificyclehooks/lificyclehooks.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
-import { SharedModule } from './shared/shared.module';
+
 import { FormComponent } from './form/form.component';
+import { CharacterOnyDirective } from './character-ony.directive';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -24,12 +26,19 @@ import { FormComponent } from './form/form.component';
     ParentComponent,
     ChildComponent,
     FormComponent,
+    CharacterOnyDirective,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-   
     SharedModule,
+    
+  ],
+  exports: [
+    BrowserModule,
+    AppRoutingModule,
+    SharedModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

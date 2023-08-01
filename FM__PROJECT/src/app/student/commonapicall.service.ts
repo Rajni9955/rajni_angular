@@ -11,7 +11,7 @@ export class CommonapicallService {
   // adminUrl = " c/admin"
   // studentUrl = "http://localhost:3000/studentName"
   url = "http://localhost:3000/"
-
+  getByIdData : any;
   constructor(private httpClient : HttpClient) { }
 
   // postApiCall(formData : any){
@@ -32,5 +32,18 @@ export class CommonapicallService {
     let url = this.url + endpoint;
     return this.httpClient.get(url)
   }
+
+
+  getById(id : any, endPoint : string){
+    let url = this.url + endPoint + '/' + id
+   return this.httpClient.get(url)
+  }
+
+  deleteApicall(endPoint : string, id : any){
+    let url = this.url + endPoint + '/' + id;
+    return this.httpClient.delete(url);
+
+  }
+
 
 }

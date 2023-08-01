@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
   declarations:[
     StudentActivityComponent,
     ApicallComponent,
+    
   
     // StudentDemoComponent
   ],
@@ -27,6 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     StudentDemoComponent,
     StudentRoutingModule,
     SharedModule,
+   
+
   ]
 
 })

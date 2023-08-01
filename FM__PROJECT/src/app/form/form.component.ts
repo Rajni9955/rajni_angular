@@ -11,6 +11,10 @@ import { HttpClient } from '@angular/common/http';
 export class FormComponent {
 
 form! : FormGroup;
+adminData : any;
+myName = 'rani';
+date = new Date;
+tableHeading : any[] = ['full Name', 'Mobile No.', 'Email Id', 'City'];
 
 constructor(private fb : FormBuilder, private commonapicallService : CommonapicallService, private httpClient : HttpClient){}
 
@@ -44,9 +48,12 @@ getData(){
   // let newUrl = url + endpointToGetData;
   this.commonapicallService.getApiCall(endpointToGetData).subscribe(data=>{
     console.log('get data', data);
+    this.adminData = data;
     
   })
   // this.commonapicallService.postApiCall(endpointToGetData);
 }
+
+
 
 }

@@ -5,15 +5,64 @@
       "id": 1
     },
     {
-      "name": "angel",
-      "mob no": "43568953125456",
-      "id": 2
+      "title": "Golmaal",
+      "fullName": "rajni",
+      "email": "rajni@gmail.com",
+      "moblieNumber": "9784125786",
+      "city": "pune",
+      "id": 3
+    },
+    {
+      "title": "Golmaal",
+      "fullName": "rajni",
+      "email ": "rajni@gmail.com",
+      "moblieNumber": "9784125786",
+      "city": "pune",
+      "id": 5
+    },
+    {
+      "title": "Golmaal",
+      "fullName": "rajni",
+      "email ": "rajni@gmail.com",
+      "moblieNumber": "9784125786",
+      "city": "pune",
+      "id": 6
     }
   ],
   "owner": [
     {
       "title": "RAM-SITA",
       "id": 1
+    },
+    {
+      "fullName": "RAJNI WAMANKAR",
+      "confirmPassword": "Rajni@4152",
+      "gender": "female",
+      "id": 2
+    },
+    {
+      "fullName": "TANU WAMANKAR",
+      "confirmPassword": "Tanu@54866",
+      "gender": "female",
+      "id": 3
+    },
+    {
+      "fullName": "TANU WAMANKAR",
+      "confirmPassword": "Tanu@85655",
+      "gender": "female",
+      "id": 4
+    },
+    {
+      "fullName": "TANU WAMANKAR",
+      "confirmPassword": "Tanu@85655",
+      "gender": "female",
+      "id": 5
+    },
+    {
+      "fullName": "RAJNI WAMANKAR",
+      "confirmPassword": "Rajni@4152",
+      "gender": "female",
+      "id": 6
     }
   ],
   "student": {
@@ -40,6 +89,21 @@
       "Name": "angel",
       "MobileNumber": "9525747133",
       "id": 4
+    },
+    {
+      "Name": "shivraj",
+      "MobileNumber": "9845217635",
+      "id": 5
+    },
+    {
+      "Name": "angli",
+      "MobileNumber": "9874523656",
+      "id": 6
+    },
+    {
+      "Name": "shivraj ",
+      "MobileNumber": "9648746233",
+      "id": 7
     }
   ]
 }
