@@ -14,6 +14,10 @@ form! : FormGroup;
 adminData : any;
 myName = 'rani';
 date = new Date;
+searchBoxVal : any;
+inp:any;
+inputValue:any;
+
 tableHeading : any[] = ['full Name', 'Mobile No.', 'Email Id', 'City'];
 
 constructor(private fb : FormBuilder, private commonapicallService : CommonapicallService, private httpClient : HttpClient){}
@@ -55,5 +59,13 @@ getData(){
 }
 
 
-
+inptVal(val:any){
+  console.log('val',val.target.value);
+  console.log('inputValue',this.inputValue);
+  
+  this.inp = val.target.value
+}
+searchBoxValue(){
+  this.searchBoxVal = this.inp;
+}
 }

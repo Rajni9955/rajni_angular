@@ -14,6 +14,8 @@ import { ChildComponent } from './child/child.component';
 import { FormComponent } from './form/form.component';
 import { CharacterOnyDirective } from './character-ony.directive';
 import { SharedModule } from './shared/shared.module';
+import { FilterPipe } from './filter.pipe';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -27,11 +29,13 @@ import { SharedModule } from './shared/shared.module';
     ChildComponent,
     FormComponent,
     CharacterOnyDirective,
+    FilterPipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SharedModule,
+    BrowserAnimationsModule,
     
   ],
   exports: [

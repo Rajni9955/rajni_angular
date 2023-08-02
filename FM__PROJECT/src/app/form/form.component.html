@@ -10,12 +10,17 @@
     <button (click)="save()">save</button><br><br>
 </form>
 
-<div *ngIf="adminData" class="table-container">
+<div>
+    <input type="text" placeholder="Search here..." [(ngModel)]="inputValue" (keyup)="inptVal($event)">
+    <button (click)="searchBoxValue()">Search</button>
+</div>
+
+<div *ngIf="adminData" class="table-container " >
     <table>
        <tr>
         <th *ngFor="let heading of tableHeading">{{heading}}</th>
     </tr>
-    <tr *ngFor="let tabledata of adminData">
+    <tr *ngFor="let tabledata of adminData | filter : searchBoxVal ">
         <td>{{tabledata.fullName}}</td>
         <td>{{tabledata.moblieNumber}}</td>
         <td>{{tabledata.email}}</td>
@@ -35,3 +40,8 @@
     {{date | date: 'shortDate'}} <br>
     {{date | date: 'fullDate'}} (IST) <br>
 </div>
+<br>
+
+<button mat-raised-button color="primary">Submit</button>
+<button mat-raised-button color="accent">Save</button>
+<br><br>
