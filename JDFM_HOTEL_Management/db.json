@@ -1,0 +1,652 @@
+{
+  "admin": [],
+  "user": [],
+  "owner": [
+    {
+      "FullName": "Shivraj",
+      "Email": "shivrajladekar1@gmail.com",
+      "Mobile": "9587124785",
+      "Password": "Shiv@12363",
+      "Gender": "male",
+      "id": 1
+    },
+    {
+      "FullName": "Shivraj",
+      "Email": "shivrajladekar1@gmail.com",
+      "Mobile": "9587124785",
+      "Password": "Shiv@12363",
+      "Gender": "male",
+      "id": 2
+    },
+    {
+      "FullName": "shiv",
+      "Email": "shiv@12145gmail.com",
+      "Mobile": "9898712538",
+      "Password": "shiv@12556",
+      "Gender": "male",
+      "id": 3
+    },
+    {
+      "FullName": "shiv",
+      "Email": "shiv@12145gmail.com",
+      "Mobile": "9898712538",
+      "Password": "shiv@12556",
+      "Gender": "male",
+      "id": 4
+    },
+    {
+      "FullName": "shiv",
+      "Email": "shiv@12145gmail.com",
+      "Mobile": "9898712538",
+      "Password": "shiv@12556",
+      "Gender": "male",
+      "id": 5
+    },
+    {
+      "FullName": "shiv",
+      "Email": "shiv@12145gmail.com",
+      "Mobile": "9898712538",
+      "Password": "shiv@12556",
+      "Gender": "male",
+      "id": 6
+    },
+    {
+      "FullName": "shiv",
+      "Email": "shiv@12145gmail.com",
+      "Mobile": "9898712538",
+      "Password": "shiv@12556",
+      "Gender": "male",
+      "id": 7
+    },
+    {
+      "FullName": "shiv",
+      "Email": "shiv@12145gmail.com",
+      "Mobile": "9898712538",
+      "Password": "shiv@12556",
+      "Gender": "male",
+      "id": 8
+    },
+    {
+      "FullName": "shree",
+      "Email": "shree@gmail.com",
+      "Mobile": "9874236650",
+      "Password": "Rajni@254879",
+      "Gender": "male",
+      "id": 9
+    },
+    {
+      "FullName": "shiya",
+      "Email": "shiya@gmail.com",
+      "Password": "Shriya@13236",
+      "Mobile": "9872453686",
+      "Gender": "female",
+      "id": 10
+    },
+    {
+      "FullName": "tani",
+      "Email": "tani@gmail.com",
+      "Password": "Tani@526967",
+      "Mobile": "9874152367",
+      "Gender": "female",
+      "id": 11
+    },
+    {
+      "FullName": "rani",
+      "Email": "rani@gmail.com",
+      "Password": "Rani@2366",
+      "Mobile": "6974258369",
+      "Gender": "female",
+      "id": 12
+    },
+    {
+      "FullName": "tanya",
+      "Email": "tanya@gmail.com",
+      "Password": "Tanya@26588",
+      "Mobile": "9874125786",
+      "Gender": "female",
+      "id": 13
+    },
+    {
+      "FullName": "Ram",
+      "Email": "ram@gmail.com",
+      "Password": "Ram@74899",
+      "Mobile": "9748563215",
+      "Gender": "male",
+      "id": 14
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 15
+    },
+    {
+      "FullName": "shivanshi",
+      "Email": "shivanshi452@gmail.com",
+      "Password": "Shivaa@2363",
+      "Mobile": "9874157856",
+      "Gender": "female",
+      "id": 16
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 17
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 18
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 19
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 20
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 21
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 22
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 23
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 24
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 25
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 26
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 27
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 28
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 29
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 30
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 31
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 32
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 33
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 34
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 35
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 36
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 37
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 38
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 39
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 40
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 41
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 42
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 43
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 44
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 45
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 46
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 47
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 48
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 49
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 50
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 51
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 52
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 53
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 54
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 55
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 56
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 57
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 58
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 59
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 60
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 61
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 62
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 63
+    },
+    {
+      "FullName": "",
+      "Email": "",
+      "Password": "",
+      "Mobile": "",
+      "Gender": "",
+      "id": 64
+    }
+  ],
+  "hotelDetails": [
+    {
+      "ownerName": "RAJNI",
+      "ownerContact": "9874512364",
+      "hotelName": "Taj hotel",
+      "hotelAddress": "Gandhi Chowk bhopal",
+      "hotelContact": "9874523",
+      "hotelMenu": "",
+      "roomsAvailable": "",
+      "password": "Rajni@1253",
+      "id": 1
+    },
+    {
+      "ownerName": "",
+      "ownerContact": "",
+      "hotelName": "",
+      "hotelAddress": "",
+      "hotelContact": "",
+      "hotelMenu": "",
+      "roomsAvailable": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "ownerName": "SHIVRAJ",
+      "ownerContact": "9874157863",
+      "hotelName": "",
+      "hotelAddress": "",
+      "hotelContact": "",
+      "hotelMenu": "",
+      "roomsAvailable": "",
+      "password": "Shivraj@2543",
+      "id": 3
+    },
+    {
+      "ownerName": "Shivraj ",
+      "ownerContact": "9874587458",
+      "hotelName": "HOTEL SHANKAR",
+      "hotelAddress": "NANDED",
+      "hotelContact": "987452633",
+      "hotelMenu": "RICE",
+      "roomsAvailable": "25",
+      "password": "Shiv@6655",
+      "id": 4
+    },
+    {
+      "ownerName": "",
+      "ownerContact": "",
+      "hotelName": "",
+      "hotelAddress": "",
+      "hotelContact": "",
+      "hotelMenu": "",
+      "roomsAvailable": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "ownerName": "",
+      "ownerContact": "",
+      "hotelName": "",
+      "hotelAddress": "",
+      "hotelContact": "",
+      "hotelMenu": "",
+      "roomsAvailable": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "ownerName": "",
+      "ownerContact": "",
+      "hotelName": "",
+      "hotelAddress": "",
+      "hotelContact": "",
+      "hotelMenu": "",
+      "roomsAvailable": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "ownerName": "",
+      "ownerContact": "",
+      "hotelName": "",
+      "hotelAddress": "",
+      "hotelContact": "",
+      "hotelMenu": "",
+      "roomsAvailable": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "ownerName": "",
+      "ownerContact": "",
+      "hotelName": "",
+      "hotelAddress": "",
+      "hotelContact": "",
+      "hotelMenu": "",
+      "roomsAvailable": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "ownerName": "",
+      "ownerContact": "",
+      "hotelName": "",
+      "hotelAddress": "",
+      "hotelContact": "",
+      "hotelMenu": "",
+      "roomsAvailable": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "ownerName": "Rajni ",
+      "ownerContact": "9765436578",
+      "hotelName": "GOOLMOHAR",
+      "hotelAddress": "RAIPUR",
+      "hotelContact": "578942655865",
+      "hotelMenu": "NON-VEG, VEG",
+      "roomsAvailable": "636",
+      "password": "Rajni@9877",
+      "id": 11
+    },
+    {
+      "ownerName": "RAJNI",
+      "ownerContact": "9875614785",
+      "hotelName": "GOOLMOHAR INN",
+      "hotelAddress": "MAIN ROAD BHOPAL",
+      "hotelContact": "9874256633",
+      "hotelMenu": "VEG, NON-VEG",
+      "roomsAvailable": "656",
+      "password": "Rajni@46623",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+
+<div >
+<button mat-raised-button color="primary" (click)="back()">Back</button><br>
+
+  <mat-card class="container">
+    <mat-card-content >
+        
+        <form [formGroup]="hotelRagistrationForm" >  
+            <mat-toolbar class="mat-toolbar" color="accent" >
+                <span class="span-toolbar"><mat-icon> local_hotel</mat-icon> Hotel Ragistration Form</span>
+            </mat-toolbar><br>
+            <mat-form-field>
+                <mat-label>Owner Name</mat-label>
+                <input matInput formControlName="ownerName">
+                 <mat-hint *ngIf="!hotelRagistrationForm.get('ownerName')?.touched"> Please Enter Owner Name here </mat-hint> 
+                 <mat-error *ngIf="hotelRagistrationForm.get('ownerName')?.errors?.['required'] && hotelRagistrationForm.get('ownerName')?.touched">this field is required</mat-error>
+                <mat-error *ngIf="!hotelRagistrationForm.get('ownerName')?.errors?.['pattern'] && hotelRagistrationForm.get('ownerName')?.errors?.['minlength']">Minimum 5 characters are required </mat-error>
+                <mat-error *ngIf="hotelRagistrationForm.get('ownerName')?.errors?.['pattern']">pattern is not match</mat-error>
+            </mat-form-field> <br><br>
+
+            <mat-form-field class="form-field">
+                <mat-label>Create Password</mat-label>
+                <input matInput formControlName="createPssword">
+                <mat-hint *ngIf="!hotelRagistrationForm.get('createPssword')?.touched">Create Password</mat-hint>
+                <mat-error *ngIf="!hotelRagistrationForm.get('createPssword')?.errors?.['pattern'] && hotelRagistrationForm.get('createPssword')?.errors?.['minlength']">Minimum 8 characters are required </mat-error>
+                <mat-error *ngIf="hotelRagistrationForm.get('createPssword')?.errors?.['required']">this field is required</mat-error>
+            </mat-form-field><br><br>
+
+            <mat-form-field class="example-full-width">
+                <mat-label>owener Mobile Number</mat-label>
+                <input matInput formControlName="owenerMobNo" >
+                <mat-hint *ngIf="!hotelRagistrationForm.get('owenerMobNo')?.touched">Enter owner contact here</mat-hint>
+                <mat-error *ngIf="hotelRagistrationForm.get('owenerMobNo')?.errors?.['required']">this field is required</mat-error>
+                <mat-error *ngIf="hotelRagistrationForm.get('owenerMobNo')?.errors?.['pattern']"> integers characters only</mat-error>
+                       
+            </mat-form-field> <br><br>
+              
+            <mat-form-field class="example-full-width">
+                <mat-label>Owener PAN Card</mat-label>
+                <input matInput formControlName="owenersPan" >
+                <mat-hint *ngIf="!hotelRagistrationForm.get('owenersPan')?.touched">Enter hotel name here</mat-hint>
+                <mat-error *ngIf="hotelRagistrationForm.get('owenersPan')?.errors?.['required']">this field is required</mat-error>
+                <mat-error *ngIf="!hotelRagistrationForm.get('owenersPan')?.errors?.['pattern'] && hotelRagistrationForm.get('owenersPan')?.errors?.['maxlength']">Maxmium 10 character are required </mat-error>
+                <mat-error *ngIf="hotelRagistrationForm.get('owenersPan')?.errors?.['pattern']">pattern is not match</mat-error>
+                </mat-form-field> <br><br>
+              
+            <mat-form-field class="example-full-width">
+                <mat-label>Hotel Name</mat-label>
+                <input matInput formControlName="hotelName" >
+                <mat-hint *ngIf="!hotelRagistrationForm.get('hotelName')?.touched">Enter hotel name here</mat-hint>
+                <mat-error *ngIf="hotelRagistrationForm.get('hotelName')?.errors?.['required']">this field is required</mat-error>
+                <mat-error *ngIf="!hotelRagistrationForm.get('hotelName')?.errors?.['pattern'] && hotelRagistrationForm.get('hotelName')?.errors?.['minlength']">min 5 character are required </mat-error>
+                <mat-error *ngIf="hotelRagistrationForm.get('hotelName')?.errors?.['pattern']">pattern is not match</mat-error>
+            </mat-form-field><br><br>
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Hotel Address</mat-label>
+              <input matInput formControlName="hotelAddress" >
+              <mat-hint *ngIf="!hotelRagistrationForm.get('hotelAddress')?.touched">Enter hotel address here</mat-hint>
+              <mat-error *ngIf="hotelRagistrationForm.get('hotelAddress')?.errors?.['required']">this field is required</mat-error>
+              <mat-error *ngIf="!hotelRagistrationForm.get('hotelAddress')?.errors?.['pattern'] && hotelRagistrationForm.get('hotelAddress')?.errors?.['minlength']">min 5 character are required </mat-error>
+              <mat-error *ngIf="hotelRagistrationForm.get('hotelAddress')?.errors?.['pattern']">pattern is not match</mat-error>
+            </mat-form-field><br><br>
+            
+            <mat-form-field class="example-full-width">
+                <mat-label>Hotel Contact</mat-label>
+                <input type="Tel" matInput matInput placeholder="555-222-1800" formControlName="hotelContact" >
+                <mat-icon matSuffix>mode_edit</mat-icon>
+                <mat-hint *ngIf="!hotelRagistrationForm.get('hotelContact')?.touched">Enter hotel contact here</mat-hint>
+                <mat-error *ngIf="hotelRagistrationForm.get('hotelContact')?.errors?.['required']">this field is required</mat-error>
+                <mat-error *ngIf="hotelRagistrationForm.get('hotelContact')?.errors?.['pattern']">integers characters only</mat-error>
+              </mat-form-field><br><br>
+            
+            <mat-form-field class="example-full-width">
+                <mat-label>Hotel Menu</mat-label>
+                <input matInput formControlName="hotelMenu" >
+                <input matInput formControlName="hotelMenu">
+                <mat-hint *ngIf="!hotelRagistrationForm.get('hotelMenu')?.touched">Enter hotel menu here</mat-hint>
+                <mat-error *ngIf="hotelRagistrationForm.get('hotelMenu')?.errors?.['required']">this field is required</mat-error>
+                <mat-error *ngIf="!hotelRagistrationForm.get('hotelMenu')?.errors?.['pattern'] && hotelRagistrationForm.get('hotelMenu')?.errors?.['minlength']">min 2 character are required </mat-error>
+                <mat-error *ngIf="hotelRagistrationForm.get('hotelMenu')?.errors?.['pattern']">pattern is not match</mat-error>
+            </mat-form-field><br><br>
+
+            <mat-form-field class="form-field">
+                <mat-label>Rooms Available</mat-label>
+                <input matInput formControlName="roomsAvailable">
+                <mat-hint *ngIf="!hotelRagistrationForm.get('roomsAvailable')?.touched">Enter rooms availabilty 
+                here</mat-hint>
+                <mat-error *ngIf="hotelRagistrationForm.get('roomsAvailable')?.errors?.['required']">this field is required</mat-error>
+            </mat-form-field><br><br>
+
+            <button mat-raised-button color="primary" (click)="submitDetails()">Submit </button> 
+            
+            <button mat-raised-button color="primary" (click)="submitDetails()">Cencel </button> 
+            
+        </form>
+    </mat-card-content>
+
+</mat-card> 
+
+</div>

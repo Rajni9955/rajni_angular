@@ -1,0 +1,38 @@
+.btn-container{
+    position: relative;
+    top: 25px;
+}
+.btn{
+    padding: 6px 6px;
+    margin: 8px 8px;
+}
+.circle-left-arrow {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .circle-left-arrow::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(225deg); /* Note the rotation direction change */
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+  }
+  
+  .circle-left-arrow:hover {
+    background-color: #0056b3;
+  }
+  
+  .circle-left-arrow:hover::before {
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+  
